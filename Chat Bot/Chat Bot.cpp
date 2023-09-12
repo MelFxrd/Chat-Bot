@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <Windows.h>
 #include <cstdlib>
@@ -11,10 +11,12 @@ int main() {
 
     srand(time(NULL));
 
-    const int n = 2;
     string rep[] = {
         "Я не знаю данной команды",
-        "Команда не распознана"
+        "Команда не распознана",
+        "Можете уточнить ваш запрос?",
+        "Не понимаю, что вы имеете в виду",
+        "Это выше моих возможностей"
     };
 
     while (true) {
